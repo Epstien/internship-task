@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="icon-logo.png">
+    <title>STUDIO PHA5E</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="hero-animation-script.js"></script>
+    <script src="script-nav.js"></script>
+    <script src="strip-refresher-script.js"></script>
+    <script src="fade-in-script.js"></script>
+    <script src="fade-opac-script.js"></script>
+    <script src="language-change-script.js"></script>
+</head>
+<body>
+    <!-- transition overlay strips-->
+    <div class="transition-strip first"></div>
+    <div class="transition-strip second"></div>
+
+    <!--navigation bar-->
+    <nav id="navbar">
+        <div class="logo-image">
+            <p>PHA5E</p>
+        </div>
+        <div class="nav-links">
+            <a href="#" onclick="startTransition()">Our vision</a>
+            <a href="#" onclick="startTransition()">Our team</a>
+            <a href="#" onclick="startTransition()">Our project</a>
+            <a href="#" onclick="startTransition()">Contact us</a>
+            <!--language Changer-->
+            <button id="lang-btn" class="language-toggle" data-lang="EN">FR<b>/</b>EN</button>
+        </div>
+    </nav>
+    
+    <!--hero content division-->
+    <div class="hero-content-slide">
+        <div class="heading-content-box">
+            <p class="silhouette-shadow">IMAGINING<br>UNIQUE<br>CONCEPTS<br>AND DIGITAL<br>EXPERIENCES</p>
+            <div class="floater-container">
+                <div class="floater-image fi1">
+                    <img src="bigger-science_thumbnail-2.svg">
+                    <div class="hover-text"><p>BIGGER<bR>SCIENCE</p><p>Immersive Experience/WebGL/Gaming</p></div>
+                </div>
+                <div class="floater-image fi2">
+                    <img src="map-interactive.svg">
+                    <div class="hover-text"><p>MUCEM</p><p style="margin-top:6.8rem; margin-left:-16.5rem;">Experimental Websites</p></div>
+                </div>
+                <div class="floater-image fi3">
+                    <img src="Capture1.svg">
+                    <div class="hover-text"><p>UNGANISHA</p><p style="margin-top:6.8rem; margin-left:-16.5rem;">Immersive Experience/WebGL/3D</p></div>
+                </div>
+                <div class="floater-image fi4">
+                    <img src="Capture2.svg">
+                    <div class="hover-text"><p style="width: 18rem; margin-left:-11.5rem">OLIVE TREE</p><p style="margin-top:6.8rem; margin-left:-16.5rem;">Interective Installation/Real Time</p></div>
+                </div>
+                
+                <div class="floater-image-grid fig1"></div>
+                <div class="floater-image-grid fig2"></div>
+                <div class="floater-image-grid fig3"></div>
+                <div class="floater-image-grid fig4"></div>
+            </div>
+            <!--overlapping heading DarkWide-->
+            <p class="silhouette-text">IMAGINING<br>UNIQUE<br>CONCEPTS<br>AND DIGITAL<br>EXPERIENCES</p>
+        </div>
+    </div>    
+    <!--video content-->
+    <div class="video-content-div fade-in" >
+        <video controls autoplay>
+            <source src="#.mp4" poster="Screenshot (29).png" type="video/mp4">
+        </video>
+    </div>
+    <!--paragraph content 1 -->
+    <div class="paragraph-set-division-1 fade-in">
+        <p class="vision-text vt1">VISION</p>
+        <div class="paragraph-set-content-holder">
+            <div class="paragraph-1">
+                <section>
+                Living an immersive journey rich in emotions adds flesh and
+                bones<br>and meaning to a digital experience that is all too
+                often cold. Not<br>only does this process perfectly embody the
+                core values of the<br>brand, but the message delivered has a
+                longer, deeper and more<br>positive influence on the user.<br><br>
+                The bringing together of digital creativity and knowledge in<br>
+                neuroscience has written into the DNA of our studio an
+                artisanal<br>know-how at the service of high technology. Each 
+                project is<Br>imagined and produced on a tailor-made basis,
+                 with listening,<Br>precision, rigour, originality and pleasure.
+                </section>
+                <!-- Arrow and See More button -->
+                <div class="arrow-and-seemore fade-in">
+                    <div class="right-arrow-closure">
+                        <img class="right-arrow" src="right-arrow.png">
+                    </div>
+                    <div class="see-more-closure">
+                        <p class="see-more-text">SEE MORE</p>
+                    </div>
+                </div>
+            </div>
+            <p class="paragraph-2 fade-in">
+                The more an<br>experience is<br>rich in meaning,<br>
+                the more its<br>meaning is rich.
+            </p>
+        </div>
+        <p class="vision-text vt2">VISION</p>
+    </div>
+    
+    <!-- paragraph content 2-->
+    <div class="paragraph-set-division-1_1 fade-in">
+        <p class="vision-text vt1">SKILL DOMAIN</p>
+        <div class="paragraph-set-content-holder">
+            <p class="paragraph-2_2">
+                Several views<br>
+                and a single<Br>
+                vision to reach<br>
+                what is the most<br>
+                complex : keeping<Br>it simple
+            </p>
+            <div class="paragraph-1_2">
+                <section>
+                    At PHA5E, our creativity can never be held back for technical
+                    <br>reasons. This is why our talented team herald from very
+                    <br>different backgrounds, so that they can offer varied points of
+                    <br>view and find the best technical solution every time.
+                    <br>Precision of the code and artistic sensitivity are permanently
+                    <br>fostered.<br><br>
+                    In a search for excellence, PHA5E constantly strives to enrich
+                    <br>its group with new personalities and new skills.<Br><Br>
+                    For our clients, we create interactive installations, immersive
+                    <Br>experiences in AR/VR or intuitive sites, while always taking
+                    <br>care to offer a response that best illustrates the codes and
+                    <Br>values specific to each professional.
+                </section>
+                <!-- Arrow and See More button -->
+                <div class="arrow-and-seemore fade-in">
+                    <div class="right-arrow-closure">
+                        <img class="right-arrow" src="right-arrow.png">
+                    </div>
+                    <div class="see-more-closure">
+                        <p class="see-more-text">SEE MORE</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <p class="vision-text vt2">SKILL DOMAIN</p>
+    </div>
+
+    <!--distinctions blog-->
+    <div class="distinction-blog fade-in-side">
+        <p class="distinction-blog-heading">OUR DISTINCTIONS</p><Br>
+        <img src="d1.svg"><br>
+        <p class="distinction-blog-description">The awards received are testimony to the recognition<br>of the cutting-edge know-how and high standards of our studio.</p>
+    </div>
+
+    <!--final page-->
+    <div class="final-page">
+        <!--navigation bar-->
+        <div class="final-page-nav">
+            <p>PHA5E</p>
+            <div class="final-nav-links">
+                <a href="#" onclick="startTransition()">Our vision</a>
+                <a href="#" onclick="startTransition()">Our team</a>
+                <a href="#" onclick="startTransition()">Our project</a>
+                <a href="#" onclick="startTransition()">Contact us</a>
+                <!--language Changer-->
+                <button class="language-toggle">FR<b>/</b>EN</button>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
